@@ -75,7 +75,7 @@
                     secondsFormat: timeFormat,
                 }, options);
 
-                if (null != options.time) {
+                if (null == options.time) {
                     $.error('missing option time passed to jQuery.downtime');
                     return this;
                 }
