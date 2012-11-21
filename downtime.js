@@ -203,11 +203,11 @@
             return Math.floor(timestamp / resolution / 3600);
         }
 
-        function minutes(timestamp) {
+        function minutes(timestamp, resolution) {
             return Math.floor((timestamp / resolution / 60) % 60);
         }
 
-        function seconds(timestamp) {
+        function seconds(timestamp, resolution) {
             return Math.floor(timestamp / resolution % 60);
         }
 
