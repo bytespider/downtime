@@ -200,15 +200,15 @@
 
 
         function hours(timestamp, resolution) {
-            return Math.floor(timestamp / resolution / 3600);
+            return Math.floor(timestamp / (resolution/1000) / 3600);
         }
 
         function minutes(timestamp, resolution) {
-            return Math.floor((timestamp / resolution / 60) % 60);
+            return Math.floor((timestamp / (resolution/1000) / 60) % 60);
         }
 
         function seconds(timestamp, resolution) {
-            return Math.floor(timestamp / resolution % 60);
+            return Math.floor(timestamp / (resolution/1000) % 60);
         }
 
         function update(event, data) {
