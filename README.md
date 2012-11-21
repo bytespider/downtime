@@ -36,20 +36,6 @@ $('#my-countdown-timer').downtime({
         $('#my-countdown-timer').downtime({time: 2700});
     </script>
 
-Will display a little like this
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://raw.github.com/bytespider/downtime/master/downtime.js"></script>
-
-<div id="my-countdown-timer">
-    <span data-bind="hours"></span> hours
-    <span data-bind="minutes"></span> minutes
-    <span data-bind="seconds"></span> seconds
-</div>
-<script>
-    $('#my-countdown-timer').downtime({time: 60});
-</script>
-
 ## API Documentation
 
 ### Options
