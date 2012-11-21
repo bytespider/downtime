@@ -50,7 +50,7 @@
     <span data-bind="hours"></span> seconds
 </div>
 <script>
-    $('#my-countdown-timer').downtime({time: 2700});
+    $('#my-countdown-timer').downtime({time: 60, complete: function () { alert('Done'); });
 </script>
         </section>
 
