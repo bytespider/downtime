@@ -40,6 +40,16 @@
 <p>Because. No really, the plugin is purely programatic. You’re free to use whatever markup you wish. Just add <code>data-bind="hours"</code>, <code>data-bind="minutes"</code>, and <code>data-bind="seconds"</code> to have the timer automatically update your content.</p>
 
 <p>Alternatively you could just bind to the <code>downtime.update</code> and handle the lot yourself.</p>
+
+<h3>Lets see it in action</h3>
+<div id="my-countdown-timer">
+    <span data-bind="hours"></span> hours
+    <span data-bind="minutes"></span> minutes
+    <span data-bind="hours"></span> seconds
+</div>
+<script>
+    $('#my-countdown-timer').downtime({time: 2700});
+</script>
         </section>
 
         <footer>
