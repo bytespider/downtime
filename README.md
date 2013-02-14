@@ -1,4 +1,5 @@
 # Downtime
+[![endorse](http://api.coderwall.com/bytespider/endorsecount.png)](http://coderwall.com/bytespider)  
 
 jQuery plugin for customisable timers and timed events.
 
